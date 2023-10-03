@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* Basic CSS styles for the web application */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input[type="file"] {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #007BFF;
+    color: #fff;
+}
